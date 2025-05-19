@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "duro-dev/*": ["packages/duro-dev/src/*"],
+      "duro-dev/server": ["packages/duro-dev/src/server"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

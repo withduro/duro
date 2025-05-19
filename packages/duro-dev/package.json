@@ -1,0 +1,24 @@
+{
+  "name": "duro-dev",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./server": {
+      "import": "./dist/server/index.js",
+      "types": "./dist/types/server/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "node dist/server/index.js"
+  },
+  "dependencies": {
+    "vite": "^5.0.0"
+  }
+}

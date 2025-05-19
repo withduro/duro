@@ -1,0 +1,22 @@
+{
+  "name": "duro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.19",
+    "typescript": "^5.8.3"
+  }
+}
